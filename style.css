@@ -1,0 +1,46 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+.hero{
+    width: 700px;
+    height: 200px;
+    background-color: rgb(225, 183, 15) ;
+    border-radius: 5px;
+    margin-left: 370px;
+    margin-top: 50px;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+
+ #son1,#son2,#son3{
+    background-color: inherit;
+    border: 3px black solid;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    padding-left: 6px;
+    padding-top: 13px;
+}
+
+#result{
+    width: 400px;
+    height: 100px;
+    background-color: red;
+    margin-left: 500px;
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    font-size: 40px;
+
+}
